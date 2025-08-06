@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/PaymentWebsite/',
+  base: '/SidakPay/',
   plugins: [react()],
   server: {
     host: true, // allows connections from LAN (or use '0.0.0.0')

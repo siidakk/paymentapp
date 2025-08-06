@@ -19,7 +19,7 @@ import {ReferPage} from "./components/referandwin"
 
 function App() {
   return (
-    <BrowserRouter basename="/PaymentWebsite">
+    <BrowserRouter basename="/SidakPay">
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
